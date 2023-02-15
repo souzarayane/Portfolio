@@ -1,0 +1,342 @@
+/*Estilos Gerais*/
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #7F7F83;
+    font-size: 14px;
+}
+
+/*Barra de Navegação*/
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav{
+    cursor: pointer;
+    text-align: center;
+}
+
+#navbar-links a {
+    color: #fff;
+    font-size: 20px;
+}
+
+#navbar-links a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 100vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 50%;
+}
+
+#mainSlider .carousel-caption h1{
+    color: #444;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#mainSlider .carousel-caption i {
+    color: #444;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#email:hover > i {
+    color: #ff8533;
+}
+
+#linkedin:hover > i {
+    color: #149be0;
+}
+
+#github:hover > i {
+    color: #000;
+}
+
+
+/* Sobre Mim */
+#about-area {
+   background-color: #F9F9F9;   
+   height: 100vh;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.col-md-6 p{
+    font-size: 20px;
+    margin-top: 90px;
+    line-height: 1.6;
+}
+
+.col-md-6 img{
+    margin-left: 180px;
+}
+
+/* Tecnologias */
+#tech-area {
+    height: 100vh;
+}
+
+.tech-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tech-box i, .tech-box h4 {
+    transition: .5s;
+}
+
+.tech-box i {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.tech-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#html-color:hover > i {
+    color: #ff4c1e;
+}
+
+#css-color:hover > i {
+    color: #149be0;
+}
+
+#js-color:hover > i {
+    color: #ffdc42;
+}
+
+#bootstrap-color:hover > i {
+    color: #7711f1;
+}
+
+#nodejs-color:hover > i {
+    color: #6da46b;
+}
+
+/* Projetos */
+#projetos-area {
+    background-color: #F9F9F9;
+    height: 100vh;
+}
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+.project-box > img {
+    width: 400px;
+    height: 200px;
+}
+
+.project-box > h4 {
+    text-align: center;
+    color: #444;
+}
+
+/* Footer CopyRight */
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{ 
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #fff;
+}
+
+#copy-area .container a:hover {
+    color:#149be0;
+    text-decoration: none;
+} 
+
+/* Responsivo para Tablet */
+@media(max-width: 768px) {
+    .container {
+        padding: 20px 0;
+    }
+    /* Nav */
+    #nav-container img {
+        width: 135px;
+    }
+
+    /* Main */
+    #mainSlider {
+        height: 100vh;
+    }
+    #mainSlider .carousel-caption {
+        top: 40%;
+    }
+    #mainSlider .carousel-caption h1 {
+        font-size: 40px;
+        
+    }
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+    }
+    
+    /* Sobre */
+    #about-area {
+        height: auto;
+    }
+    #about-area img {
+        margin-top: 50px;
+        width: 250px;
+        margin-left: 80px;
+    }
+    #about-area h2 {
+       font-size: 30px;
+    }
+    #about-area p {
+        font-size: 14px;
+        width: 350px;
+    }
+
+    /* Tecnologias */
+    #tech-area h3 {
+        font-size: 28px;
+    }
+    .tech-box i {
+        font-size: 40px;
+    }
+    .tech-box h4 {
+        font-size: 16px;
+    }
+
+    /* Projetos */
+    #projetos-area {
+        height: 150vh;
+    }
+    #projetos-area h3 {
+        font-size: 28px;
+    }
+    /* Footer */
+    #copy-area .col-md-12 p {
+        font-size: 14px;
+    }
+}
+
+/* Responsivo para Celular*/
+@media(max-width: 425px) {
+    /* Nav */
+    #navbar-links a {
+        color: #fff;
+        font-size: 14px;
+    }
+    /* Main */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: 100vh;
+    }    
+    #mainSlider .carousel-caption h1 {
+        font-size: 30px;
+    }
+    #mainSlider .carousel-caption p {
+        font-size: 14px;
+    }
+
+    /* Sobre */
+    #about-area h2 {
+        font-size: 25px;
+     }
+     #about-area p {
+        font-size: 14px;
+        width: 325px;
+        margin: 0 auto;
+    }
+    .col-md-6 p{
+        font-size: 20px;
+        margin-top: 40px;
+        line-height: 1.6;
+    }
+
+    /* Tecnologias */
+    #tech-area {
+        height: 150vh;
+    }
+    #tech-area h3 {
+        font-size: 20px;
+    }
+
+    /* Projetos */
+    #projetos-area {
+        height: 380vh;
+    }
+    #projetos-area h3 {
+        font-size: 20px;
+    }
+    #projetos-area h4 {
+        font-size: 20px;
+    }
+    #projetos-area p {
+        text-align: center;
+        font-size: 14px;
+    }
+}

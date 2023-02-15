@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Assets/css/style.css">  
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/301f2ae17b.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="/Assets/js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="nav-container" class="container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark bg-dark">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="/Assets/img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" href="#" id="sobre-menu">Sobre</a>
+                        <a class="nav-item nav-link" href="#" id="tecnologias-menu">Tecnologias</a>
+                        <a class="nav-item nav-link" href="#" id="projetos-menu">Projetos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+           <div id="mainSlider" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/Assets/img/geometrico.jpg" class="d-block w-100" alt="Fundo Geométrico">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Rayane Souza</h1>
+                            <p>Desenvolvedora Front-end</p>
+                            <a href="mailto:souzarayane1@outlook.com" target="_blank" id="email"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://github.com/souzarayane" target="_blank" id="github"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/rayane-souza-df/" target="_blank" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="main-title">Sobre Mim</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Estudante de licenciatura em Computação no Instituto Federal de Brasília - IFB. 
+                        Estou à procura da minha primeira oportunidade 
+                        de trabalhar como desenvolvedora front-end. 
+                        Atualmente estou estudando JavaScript e Node.js. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="/Assets/img/avatar.png" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tech-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Tecnologias Usadas</h3>
+                    </div>
+                    <div id="html-color" class="col-md-4 tech-box">
+                        <i class="fa-brands fa-html5"></i>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div id="css-color" class="col-md-4 tech-box">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                    </div>
+                    <div id="js-color" class="col-md-4 tech-box">
+                        <i class="fa-brands fa-square-js"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div id="bootstrap-color" class="col-md-4 tech-box">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <h4>Bootstrap</h4>
+                    </div>
+                    <div id="nodejs-color" class="col-md-4 tech-box">
+                        <i class="fa-brands fa-node-js"></i>
+                        <h4>Node.js</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projetos-area">
+            <div class="container">
+                <a class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Conheça Meus Projetos</h3>
+                    </div>
+                    <div class="col-md-4 project-box">
+                        <img src="/Assets/img/loki.png" class="img-fluid" alt="Página do seriado Loki">
+                        <h4>Loki</h4>
+                        <p>Página de chamada do seriado Loki. Desenvolvido com HTML5 E CSS3.</p>
+                    </div>
+                    <div class="col-md-4 project-box">
+                        <img src="/Assets/img/chihito.png" class="img-fluid" alt="Página A viagem de Chihiro">
+                        <h4>A viagem de Chihiro</h4>
+                        <p>Landing page sobre o filme "A Viagem de Chihiro". Desenvolvido com HTML5 e CSS3.</p>
+                    </div>
+                    <div class="col-md-4 project-box">
+                        <img src="/Assets/img/starbucks.webp" class="img-fluid" alt="Página Starbucks">
+                        <h4>Starbucks</h4>
+                        <p>Clone da landing page da Starbucks. Desenvolvido com HTML5 e CSS3.</p>
+                    </div>
+                    <div class="col-md-4 project-box">
+                        <img src="/Assets/img/amazon-prime.png" class="img-fluid" alt="Página Amazon Prime">
+                        <h4>Amazon</h4>
+                        <p>Clone do site Amazon Prime. Desenvolvido com HTML5, CSS3, JavaScript e JQuery.</p>
+                    </div>
+                    <div class="col-md-4 project-box">
+                        <img src="/Assets/img/pokedex.png" class="img-fluid" alt="Página Pokedex">
+                        <h4>Pokedéx</h4>
+                        <p>Criação de uma pokedéx. Desenvolvido com HTML5, CSS3 e JavaScript puro. Consumindo a API pokeapi.co </p>
+                    </div>
+                    <div class="col-md-4 project-box">
+                        <img src="/Assets/img/Orlando City.png" class="img-fluid" alt="Página Orlando City">
+                        <h4>Orlando City</h4>
+                        <p>Site com o tema do time de futebol Orlando City. Desenvolvido com HTML5, CSS3, Bootstrap e JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="copy-area" class="navbar-dark bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="d-inline-flex">
+                        <p>Desenvolvido por <a href="https://www.linkedin.com/in/rayane-souza-df/" target="_blank">Rayane Souza</a> &copy; 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/Assets/js/scripts.js"></script>
+</body>
+</html>
