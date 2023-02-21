@@ -195,29 +195,6 @@ p, li {
     text-align: center;
     color: #444;
 }
-
-/* Footer CopyRight */
-#copy-area .container {
-    padding: 10px 0;
-    text-align: center;
-}
-
-#copy-area .container p{ 
-    color: #fff;
-    margin-bottom: 0;
-    font-size: 16px;
-}
-
-#copy-area .container a {
-    font-weight: bold;
-    color: #fff;
-}
-
-#copy-area .container a:hover {
-    color:#149be0;
-    text-decoration: none;
-} 
-
 /* Responsivo para Tablet */
 @media(max-width: 768px) {
     .container {
@@ -277,10 +254,6 @@ p, li {
     }
     #projetos-area h3 {
         font-size: 28px;
-    }
-    /* Footer */
-    #copy-area .col-md-12 p {
-        font-size: 14px;
     }
 }
 
